@@ -1,10 +1,11 @@
 # Project 1 Generative Text
 
-Your Name, yourcontact@ucsd.edu
-
-(Your teammate's contact info, if appropriate)
+Joseph Chang, jdchang@ucsd.edu
 
 ## Abstract
+
+The goal of this project is to generate rap lyrics from Kanye West which can be used for future song ideas or matched with other music. The model used for this project is a GRU RNN. Model architecture and training parameters are manipulated to optimize the model to generate the most sensible and accurate lyrics. The dataset used is Kanye West Rap Verses from Kaggle which is a compilation of 243 Songs and 364 Verses.
+
 
 Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
 
@@ -31,6 +32,8 @@ Any implementation details or notes we need to repeat your work.
 - Does it run on some other (non-datahub) platform? (CoLab, etc.)
 
 ## Reference
+
+https://www.kaggle.com/viccalexander/kanyewestverses
 
 References to any papers, techniques, repositories you used:
 - Papers
