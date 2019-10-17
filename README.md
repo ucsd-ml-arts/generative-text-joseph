@@ -25,6 +25,13 @@ Your code for generating your project:
 
 - Documentation of your generative text in an effective form. A file with your generated text (.pdf, .doc, .txt). 
 
+Temperature most optimal at 1.0. Above 1.0 starts producing words that aren't real. Below has little noticable difference, but it is definitely closer to the original lyrics' order which we want to avoid for this project.
+
+GRU  30 eopchs loss: 0.0689 (2 layer rnn)
+LSTM 30 epochs loss: 0.0669 (2 layer rnn)
+GRU  30 eopchs loss: 0.0685 (3 layer rnn)
+LSTM 30 epochs loss: 0.0661 (3 layer rnn)
+
 ## Technical Notes
 
 Any implementation details or notes we need to repeat your work. 
