@@ -40,10 +40,6 @@ Any implementation details or notes we need to repeat your work.
 
 ## Reference
 
-https://www.kaggle.com/viccalexander/kanyewestverses
+## Reference
 
-References to any papers, techniques, repositories you used:
-- Papers
-  - [This is a paper](this_is_the_link.pdf)
-- Repositories
-- Blog posts
+- [LyricsGenius](https://github.com/johnwmillr/LyricsGenius)
