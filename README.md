@@ -4,8 +4,7 @@ Joseph Chang, jdchang@ucsd.edu
 
 ## Abstract
 
-The goal of this project is to generate oldie song lyrics inspired by Bobby Darin. These can be used for future song ideas or matched with other music. In particular, we want to test the results of using modern words as our starting phrase to see how the generator reacts. To have Bobby Darin singing about iPhones or new technology he never saw would be interesting. It would make his voice present today even though he is no longer alive. The method used for this project is a LSTM RNN with a 3 layer LSTM architecture. RNNs are optimal for language prediction as it understands every word based on the previous word's understanding. It has persistence. In our case, the model architecture and training parameters are adjusted to optimize the model to generate the most sensible and accurate lyrics while retaining a sense of randomness so the model is not overfitted. A webscraper is used to create the Bobby Darin lyrics dataset which is a compilation of 300 songs. The lyrics are processed to be lowercase only to avoid having missing uppercase letters.
-
+The goal of this project is to generate oldie song lyrics inspired by Bobby Darin. These can be used for future song ideas or matched with other music. In particular, we want to test the results of using modern words as our starting phrase to see how the generator reacts. The method used for this project is a LSTM RNN with a 3 layer LSTM architecture. RNNs are optimal for language prediction as it understands every word based on the previous word's understanding. It has persistence. In our case, the model architecture and training parameters are adjusted to optimize the model to generate the most sensible and accurate lyrics while retaining a sense of randomness so the model is not overfitted. A webscraper is used to create the Bobby Darin lyrics dataset which is a compilation of 300 songs. The lyrics are processed to be lowercase only to avoid having missing uppercase letters.
 
 ## Model/Data
 
@@ -47,7 +46,7 @@ Project_1.pynb
 
 ## Results
 
-The goal of this project is to seed Bobby Darin lyrics with our own phrase or word.
+The goal of this project is to seed Bobby Darin lyrics with our own phrase or word. The results are reasonable since parameters were tweaked to avoid incongruent words. Using modern words does not impact much of the lyrics generated or if it does, one cannot tell.
 
 Seed word: iphones
 
