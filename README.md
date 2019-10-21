@@ -14,7 +14,7 @@ training
 Project_1.ipynb
 - Contains code for processing dataset, training model, generating lyrics, saving to .txt file
 
-WebScraper.pynb
+WebScraper.ipynb
 - Contains code for scraping a specific artist's lyrics from Genius using Genius API and outputting results in a .txt file
 
 bobby-darin-lyrics.txt
@@ -25,11 +25,11 @@ bobby-darin-lyrics-generated.txt
 
 ## Code
 
-WebScraper.pynb 
+WebScraper.ipynb 
 - Genius lyrics web scraping code
 - The lyrics are processed to be lowercase only to avoid having missing uppercase letters.
 
-Project_1.pynb 
+Project_1.ipynb 
 - Training and generation code
 - Temperature is most optimal at 1.0. Above 1.0 starts producing words that aren't real. Below has little noticable difference, but it is much closer to the original lyrics which we want to avoid.
 - The resulting loss was recorded for combinations of GRU and LSTM. It was concluded LSTMs are have lower loss and are more effective.
@@ -46,7 +46,7 @@ Project_1.pynb
 
 ## Results
 
-The goal of this project is to seed Bobby Darin lyrics with our own phrase or word. The results are reasonable since parameters were tweaked to avoid incongruent words. Using modern words does not impact much of the lyrics generated or if it does, one cannot tell.
+The goal of this project is to seed Bobby Darin lyrics with our own phrase or word. The results are reasonable since parameters were tweaked to avoid incongruent words. Using modern words does not impact much of the lyrics generated and if it does, one cannot tell.
 
 Seed word: iphones
 
