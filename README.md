@@ -34,10 +34,15 @@ Project_1.pynb
 - Training and generation code
 - Temperature is most optimal at 1.0. Above 1.0 starts producing words that aren't real. Below has little noticable difference, but it is much closer to the original lyrics which we want to avoid.
 - The resulting loss was recorded for combinations of GRU and LSTM. It was concluded LSTMs are have lower loss and are more effective.
-GRU  30 eopchs loss: 0.0689 (2 layer rnn)
+
+GRU  30 epochs loss: 0.0689 (2 layer rnn)
+
 LSTM 30 epochs loss: 0.0669 (2 layer rnn)
-GRU  30 eopchs loss: 0.0685 (3 layer rnn)
+
+GRU  30 epochs loss: 0.0685 (3 layer rnn)
+
 LSTM 30 epochs loss: 0.0661 (3 layer rnn)
+
 - The number of epochs was increased from 3 to 30 epochs which lowered the loss.
 - Decided to use a 3-layer LSTM which was the best balance between overfitting and underfitting.
 
