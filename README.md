@@ -51,8 +51,8 @@ The goal of this project is to seed Bobby Darin lyrics with our own phrase or wo
 
 Seed word: iphones
 
-Attempt 1
---------------
+**Attempt 1**
+
 iphones gonna be mine
 this evenin'
 'bout a quarter to nine
@@ -108,8 +108,8 @@ i will hurry there
 i'm gonna be waitin' where the lane begins
 waitin' 
 
-Attempt 2
---------------
+**Attempt 2**
+
 iphones and pins
 
 and then
