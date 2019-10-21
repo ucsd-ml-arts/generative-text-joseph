@@ -36,10 +36,10 @@ Project_1.pynb
 - The resulting loss was recorded for combinations of GRU and LSTM. It was concluded LSTMs are have lower loss and are more effective.
 
 
-|               |     GRU       |  LSTM     |
-| ------------- | ------------- |-----------|
-| 2 layer rnn   | 0.0689  | 0.0669 |
-| 3 layer rnn   | 0.0685  | 0.0661 |
+  |               |     GRU       |  LSTM     |
+  | ------------- | ------------- |-----------|
+  | 2 layer rnn   | 0.0689  | 0.0669 |
+  | 3 layer rnn   | 0.0685  | 0.0661 |
 
 - The number of epochs was increased from 3 to 30 epochs which lowered the loss.
 - Decided to use a 3-layer LSTM which was the best balance between overfitting and underfitting.
